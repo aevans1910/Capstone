@@ -1,0 +1,1 @@
+This website is a simple reactive Bootstrap website for a non existant event planing company
