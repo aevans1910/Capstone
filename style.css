@@ -10,3 +10,31 @@
 .jumbotron > h1, p{
     color: black;
 }
+
+#cards {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 340px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 1em;
+    border: none;
+}
+
+.card h3, .card p {
+    padding: 0 1rem;
+}
+.card p {
+    margin-top: 0;
+}
+#cards > .img > img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    width: auto;
+    height: 300px;
+}
