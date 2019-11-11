@@ -48,6 +48,7 @@
             position: relative;
             color: black;
         }
+
     /* Styling for cards */
         #cards {
             display: flex;
@@ -97,7 +98,9 @@
         .info {
             display: flex;
             justify-content: center;
-            margin: 16px;
+            margin-top: 30px;
+            padding-left: 200px;
+            padding-right: 200px;
         }
 
     /* Styling for the flip cards */
@@ -182,5 +185,44 @@
             padding-top: 15px;
         }
 
+/* Styling for the Cat page */
 
+    /* Styling for the carousel */
+        .container2 {
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            width: 100%;
+            height: 500px; 
+            padding-top: 70px;
+            margin-bottom: 70px;
+            position: relative;
+        }
+
+        .carousel {
+            display: flex;
+            justify-content: center;
+            width: 500px;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .carousel-caption {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+
+        .container > h1, p {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            color: black;
+        }
+
+        .carousel-caption > button {
+            border: none;
+            background: none;
+        }
 
