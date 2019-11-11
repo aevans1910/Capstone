@@ -101,22 +101,34 @@
         }
 
     /* Styling for the flip cards */
-        /* entire container, keeps perspective */
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            margin-bottom: none;
+            padding-bottom: none;
+        }
+
+        .cards > img{
+            display: flex;
+            justify-content: center;
+        }
+
         .flip-container {
             perspective: 1000px;
-            margin: 15px;
+            margin-bottom: none;
+            padding-bottom: none;
         }
-            /* flip the pane when hovered */
-            .flip-container:hover .flipper, .flip-container.hover .flipper {
-                transform: rotateY(180deg);
-            }
+
+        .flip-container:hover .flipper, .flip-container.hover .flipper {
+            transform: rotateY(180deg);
+        }
 
         .flip-container, .front, .back {
             width: 320px;
             height: 480px;
         }
 
-        /* flip speed goes here */
         .flipper {
             transition: 0.6s;
             transform-style: preserve-3d;
@@ -124,7 +136,6 @@
             position: relative;
         }
 
-        /* hide back of pane during swap */
         .front, .back {
             backface-visibility: hidden;
 
@@ -133,15 +144,21 @@
             left: 0;
         }
 
-        /* front pane, placed above back */
         .front {
             z-index: 2;
             /* for firefox 31 */
             transform: rotateY(0deg);
         }
 
-        /* back, initially hidden pane */
         .back {
             transform: rotateY(180deg);
         }
+
+    /* Styling for the footer */
+        .footer {
+            margin-top: none;
+            padding-top: none;
+        }
+
+
 
