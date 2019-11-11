@@ -154,10 +154,32 @@
             transform: rotateY(180deg);
         }
 
+    /* Styling for the results section */
+        .results {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            padding-bottom: 35px;
+        }
+
+        .results > h2 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cat-result {
+            padding-bottom: 15px;
+        }
+
     /* Styling for the footer */
         .footer {
-            margin-top: none;
-            padding-top: none;
+            padding-top: 15px;
         }
 
 
