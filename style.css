@@ -14,6 +14,28 @@
             color: black;
         }
 
+    /* Styling for the carousel */
+        .carousel {
+            display: flex;
+            justify-content: center;
+            width: auto;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .carousel-caption {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
+
+        .carousel-caption > h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+        }
     /* Styling for cards */
         #cards {
             display: flex;
